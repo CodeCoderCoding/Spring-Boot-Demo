@@ -12,19 +12,19 @@ import java.util.List;
 public class WebsiteService {
     @Autowired
     WebsiteDao websiteDao;
-    public int addBook(Website website) {
+    public int addWebsite(Website website) {
         return websiteDao.addWebsite(website);
     }
-    public int updateBook(Website book) {
+    public int updateWebsite(Website book) {
         return websiteDao.updateWebsite(book);
     }
-    public int deleteBookById(Integer id) {
+    public int deleteWebsiteById(Integer id) {
         return websiteDao.deleteWebsiteById(id);
     }
-    public Website getBookById(Integer id) {
+    public Website getWebsiteById(Integer id) {
         return websiteDao.getWebsiteById(id);
     }
-    public List<Website> getAllBooks() {
+    public List<Website> getAllWebsites() {
         return websiteDao.getAllWebsites();
     }
 }

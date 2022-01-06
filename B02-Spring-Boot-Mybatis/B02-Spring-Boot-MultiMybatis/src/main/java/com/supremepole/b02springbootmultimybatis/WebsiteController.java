@@ -1,4 +1,4 @@
-package com.supremepole.b01springbootmultijdbc;
+package com.supremepole.b02springbootmultimybatis;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -27,6 +27,10 @@ public class WebsiteController {
     @GetMapping("/get-website")
     public Website getWebsite(){
         return websiteService.getWebsiteById(1);
+    }
+    @GetMapping("/get-website2")
+    public Website getWebsite2(){
+        return websiteService.getWebsiteById2(1);
     }
     @GetMapping("/update-website")
     public void updateWebsite(){

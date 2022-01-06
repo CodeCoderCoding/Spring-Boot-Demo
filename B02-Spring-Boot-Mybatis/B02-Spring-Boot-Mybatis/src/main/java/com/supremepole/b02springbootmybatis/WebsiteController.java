@@ -1,4 +1,4 @@
-package com.supremepole.b01springbootmultijdbc;
+package com.supremepole.b02springbootmybatis;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

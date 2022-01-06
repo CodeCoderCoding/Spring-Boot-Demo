@@ -17,16 +17,16 @@ public class WebsiteController {
         website.setId(1);
         website.setName("supremepole");
         website.setUrl("https://cs.supremepole.com");
-        websiteService.addBook(website);
+        websiteService.addWebsite(website);
         Website website2=new Website();
         website2.setId(2);
         website2.setName("supremepole interview");
         website2.setUrl("https://interview.supremepole.com");
-        websiteService.addBook(website2);
+        websiteService.addWebsite(website2);
     }
     @GetMapping("/get-website")
     public Website getWebsite(){
-        return websiteService.getBookById(1);
+        return websiteService.getWebsiteById(1);
     }
     @GetMapping("/update-website")
     public void updateWebsite(){
@@ -34,10 +34,10 @@ public class WebsiteController {
         website.setId(1);
         website.setName("supremepole algorithm");
         website.setUrl("https://algorithm.supremepole.com");
-        websiteService.updateBook(website);
+        websiteService.updateWebsite(website);
     }
     @GetMapping("/delete-website")
     public void deleteWebsite(){
-        websiteService.deleteBookById(2);
+        websiteService.deleteWebsiteById(2);
     }
 }
