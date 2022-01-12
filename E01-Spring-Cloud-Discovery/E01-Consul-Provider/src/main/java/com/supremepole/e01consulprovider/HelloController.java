@@ -12,11 +12,12 @@ public class HelloController {
     @Value("${provider.name}")
     private String name;
     /*注入“服务提供者”的端口号*/
-
+    @Value("${server.port}")
+    private String port;
     /*提供的接口，用于返回信息*/
     @RequestMapping("/hello")
     public String hello() {
-        String str="provider:" + name;
+        String str="provider:" + name +", port:"+port;
         //返回数据
         return str;
     }
