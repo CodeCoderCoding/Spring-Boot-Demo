@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.supremepole</groupId>
-  <artifactId>F02-Spring-Bean-Annotation</artifactId>
+  <artifactId>F02-Spring-ConfigBean-Annotation</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>F02-Spring-Bean-Annotation</name>
+  <name>F02-Spring-ConfigBean-Annotation</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
