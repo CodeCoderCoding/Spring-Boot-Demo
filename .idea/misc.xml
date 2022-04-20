@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/A02-Spring-Boot-Config/A02-Spring-Boot-Config-Gradle" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/A01-Spring-Boot-HelloWorld/pom.xml" />
+        <option value="$PROJECT_DIR$/A02-Spring-Boot-Config-Banner/pom.xml" />
+        <option value="$PROJECT_DIR$/A02-Spring-Boot-Config/A02-Spring-Boot-Config-Banner/pom.xml" />
+        <option value="$PROJECT_DIR$/A03-Spring-Boot-HTTP/pom.xml" />
+        <option value="$PROJECT_DIR$/A04-Spring-Boot-JSON/pom.xml" />
+        <option value="$PROJECT_DIR$/A04-Spring-Boot-JSON/A04-Spring-Boot-Jackson/pom.xml" />
+        <option value="$PROJECT_DIR$/A04-Spring-Boot-Gson/pom.xml" />
+        <option value="$PROJECT_DIR$/A04-Spring-Boot-JSON/A04-Spring-Boot-Gson/pom.xml" />
+        <option value="$PROJECT_DIR$/A04-Spring-Boot-Fastjson/pom.xml" />
+        <option value="$PROJECT_DIR$/A04-Spring-Boot-JSON/A04-Spring-Boot-Fastjson/pom.xml" />
+        <option value="$PROJECT_DIR$/A05-Spring-Boot-Template/A05-Spring-Boot-Thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/A05-Spring-Boot-Template/A05-Spring-Boot-Freemaker/pom.xml" />
+        <option value="$PROJECT_DIR$/A06-Spring-Boot-Static/pom.xml" />
+        <option value="$PROJECT_DIR$/A07-Spring-Boot-File/pom.xml" />
+        <option value="$PROJECT_DIR$/A08-Spring-Boot-Web/A08-Spring-Boot-Interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/A08-Spring-Boot-Web/A08-Spring-Boot-Servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/A09-Spring-Boot-Exception/pom.xml" />
+        <option value="$PROJECT_DIR$/A10-Spring-Boot-Logback/pom.xml" />
+        <option value="$PROJECT_DIR$/A10-Spring-Boot-Log/A10-Spring-Boot-Logback/pom.xml" />
+        <option value="$PROJECT_DIR$/A11-Spring-Boot-Test/pom.xml" />
+        <option value="$PROJECT_DIR$/B01-Spring-Boot-JdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/B01/B01-Spring-Boot-JdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/B02-Spring-Boot-Mybatis/B02-Spring-Boot-Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/B03-Spring-Boot-JPA/B03-Spring-Boot-JPA/pom.xml" />
+        <option value="$PROJECT_DIR$/B01-Spring-Boot-JdbcTemplate/B01-Spring-Boot-MultiJdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/B01-Spring-Boot-JdbcTemplate/B01-Spring-Boot-JdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/B02-Spring-Boot-Mybatis/B02-Spring-Boot-MultiMybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/B03-Spring-Boot-JPA/B03-Spring-Boot-MultiJPA/pom.xml" />
+        <option value="$PROJECT_DIR$/C01-Spring-Boot-Security/C01-Spring-Boot-Security/pom.xml" />
+        <option value="$PROJECT_DIR$/C01-Spring-Boot-Security/C01-Spring-Boot-Security-Memory/pom.xml" />
+        <option value="$PROJECT_DIR$/B04-Spring-Boot-Redis/B04-Spring-Boot-Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/B04-Spring-Boot-Redis/B04-Spring-Boot-Cache-Single/pom.xml" />
+        <option value="$PROJECT_DIR$/D01-Spring-Boot-Activemq/pom.xml" />
+        <option value="$PROJECT_DIR$/E01-Spring-Cloud-Discovery/E01-Consul-Provider/pom.xml" />
+        <option value="$PROJECT_DIR$/E01-Spring-Cloud-Discovery/E01-Consul-Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/E02-Spring-Cloud-LoadBalance/E02-Ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/E02-Spring-Cloud-LoadBalance/E02-Ribbon-Consul/pom.xml" />
+        <option value="$PROJECT_DIR$/E02-Spring-Cloud-LoadBalance/E02-Feign-Configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/E02-Spring-Cloud-LoadBalance/E02-Feign-Consul/pom.xml" />
+        <option value="$PROJECT_DIR$/E03-Spring-Cloud-FaultTolerance/E03-Hystrix-Consul/pom.xml" />
+        <option value="$PROJECT_DIR$/E03-Spring-Cloud-FaultTolerance/E03-Hystrix-Feign/pom.xml" />
+        <option value="$PROJECT_DIR$/E04-Spring-Cloud-Gateway/E04-Gateway-Java-API/pom.xml" />
+        <option value="$PROJECT_DIR$/E04-Spring-Cloud-Gateway/E04-Gateway-Route-Java-API/pom.xml" />
+        <option value="$PROJECT_DIR$/E04-Spring-Cloud-Gateway/E04-Gateway-Route-Configuration-File/pom.xml" />
+        <option value="$PROJECT_DIR$/E04-Spring-Cloud-Gateway/E04-Gateway-Limit/pom.xml" />
+        <option value="$PROJECT_DIR$/E05-Spring-Cloud-LinkTrace/E05-Zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/E06-Spring-Cloud-Config/E06-Config-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/E06-Spring-Cloud-Config/E06-Config-Client/pom.xml" />
+        <option value="$PROJECT_DIR$/F01-Spring-HelloWorld/pom.xml" />
+        <option value="$PROJECT_DIR$/F02-Spring-IoC/F02-Spring-IoC/pom.xml" />
+        <option value="$PROJECT_DIR$/F03-Spring-JavaConfig/pom.xml" />
+        <option value="$PROJECT_DIR$/F02-Spring-IoC/pom.xml" />
+        <option value="$PROJECT_DIR$/F02-Spring-IoC/F02-Spring-Bean-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/F02-Spring-IoC/F02-Spring-Bean-JavaConfig/pom.xml" />
+        <option value="$PROJECT_DIR$/F03-Spring-AOP/F03-Spring-Interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/F02-Spring-IoC/F02-Spring-Bean-Scope/F02-Spring-Bean-Scope/pom.xml" />
+        <option value="$PROJECT_DIR$/F02-Spring-Bean-InitDestroy/pom.xml" />
+        <option value="$PROJECT_DIR$/F02-Spring-IoC/F02-Spring-Bean-InitDestroy/pom.xml" />
+        <option value="$PROJECT_DIR$/F02-Spring-IoC/F02-Spring-Bean-Scope/pom.xml" />
+        <option value="$PROJECT_DIR$/F02-Spring-IoC/F02-Spring-ConfigBean-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/F02-Spring-IoC/F02-Spring-ConfigBean-JavaConfig/pom.xml" />
+        <option value="$PROJECT_DIR$/F04-Spring-Bean/F04-Spring-Bean-Scope/pom.xml" />
+        <option value="$PROJECT_DIR$/F04-Spring-Bean/F04-Spring-Bean-InitDestroy/pom.xml" />
+        <option value="$PROJECT_DIR$/F04-Spring-Bean/F04-Spring-Bean-Profile/pom.xml" />
+        <option value="$PROJECT_DIR$/F04-Spring-Bean/F04-Spring-Bean-Conditional/pom.xml" />
+        <option value="$PROJECT_DIR$/F04-Spring-Bean/F04-Spring-Bean-Aware/pom.xml" />
+        <option value="$PROJECT_DIR$/D02-Spring-Boot-RabbitMQ/D02-Direct-Exchange/pom.xml" />
+        <option value="$PROJECT_DIR$/D02-Spring-Boot-RabbitMQ/D02-Fanout-Exchange/pom.xml" />
+        <option value="$PROJECT_DIR$/E01-Spring-Cloud-Discovery/E01-Nacos-Provider/pom.xml" />
+        <option value="$PROJECT_DIR$/E01-Spring-Cloud-Discovery/E01-Nacos-Consumer/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>
