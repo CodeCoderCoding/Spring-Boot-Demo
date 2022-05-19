@@ -7,4 +7,11 @@
 <body>
     Hello, <text th:text="${name}"></text>
 </body>
+<!--js获取thymeleaf中的值-->
+<script th:inline="javascript">
+    var myVar = [[${name}]];
+    //或（如果第一种方式不行使用第二种）
+    //var single = '[[${name}]]';
+    alert("single: "+myVar)
+</script>
 </html>
