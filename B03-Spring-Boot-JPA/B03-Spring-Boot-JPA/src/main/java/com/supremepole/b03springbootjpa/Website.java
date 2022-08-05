@@ -11,7 +11,6 @@ import javax.persistence.Id;
 @Entity(name="website")
 public class Website {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String url;
     private String name;
