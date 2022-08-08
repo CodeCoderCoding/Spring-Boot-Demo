@@ -26,11 +26,14 @@ public class SwaggerConfig {
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("com.supremepole.a12springbootswagger2.controller"))
                 .paths(PathSelectors.any())
-                .build().apiInfo(new ApiInfoBuilder()
-                .description("Swagger API File")
+                .build()
+                .apiInfo(
+                        new ApiInfoBuilder()
+                        .description("Swagger API File")
                         .contact(new Contact("supremepole","https://github.com/CodeCoderCoding", "kneil5778@gmail.com"))
                         .version("V1.0.0")
                         .title("Swagger API File")
-                        .build());
+                        .build()
+                );
     }
 }
