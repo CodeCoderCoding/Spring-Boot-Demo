@@ -1,6 +1,6 @@
 package com.supremepole.b03springbootjpa.repository;
 
-import com.supremepole.b03springbootjpa.entity.Website;
+import com.supremepole.b03springbootjpa.Website;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
