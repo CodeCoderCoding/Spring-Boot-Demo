@@ -1,5 +1,7 @@
 package com.supremepole.b03springbootjpa;
 
+import com.supremepole.b03springbootjpa.entity.Website;
+import com.supremepole.b03springbootjpa.repository.WebsiteDao;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
