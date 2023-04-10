@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.supremepole</groupId>
-    <artifactId>A04-Spring-Boot-JSON</artifactId>
+    <artifactId>A04-Spring-Boot-Jackson</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>A04-Spring-Boot-JSON</name>
     <description>A04-Spring-Boot-JSON</description>
