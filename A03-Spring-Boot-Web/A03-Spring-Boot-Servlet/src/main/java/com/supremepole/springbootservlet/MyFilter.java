@@ -1,4 +1,4 @@
-package com.supremepole.a08springbootservlet;
+package com.supremepole.springbootservlet;
 
 import javax.servlet.annotation.WebFilter;
 import java.io.IOException;

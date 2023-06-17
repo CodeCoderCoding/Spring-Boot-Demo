@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.supremepole</groupId>
-    <artifactId>A08-Spring-Boot-Servlet</artifactId>
+    <artifactId>A03-Spring-Boot-Servlet</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>A08-Spring-Boot-Servlet</name>
-    <description>A08-Spring-Boot-Servlet</description>
+    <name>A03-Spring-Boot-Servlet</name>
+    <description>A03-Spring-Boot-Servlet</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
