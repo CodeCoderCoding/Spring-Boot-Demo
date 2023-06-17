@@ -7,7 +7,7 @@ import javax.servlet.*;
 /**
  * CodeCoderCoding
  */
-@WebFilter("/*")
+@WebFilter("/filter")
 public class MyFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig){
