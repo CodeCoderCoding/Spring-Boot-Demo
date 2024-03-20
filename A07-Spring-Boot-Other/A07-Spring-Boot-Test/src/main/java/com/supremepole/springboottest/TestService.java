@@ -1,4 +1,4 @@
-package com.supremepole.a11springboottest;
+package com.supremepole.springboottest;
 
 import org.springframework.stereotype.Service;
 

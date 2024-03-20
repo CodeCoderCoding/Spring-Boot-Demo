@@ -1,7 +1,9 @@
-package com.supremepole.a11springboottest;
+package com.supremepole.springboottest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -11,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @Autowired
     TestService testService;
-    @GetMapping("/website")
-    public String website(String website) {
-        return testService.testService(website);
+    @PostMapping("/website")
+    public String website(@RequestBody WebsiteDTO websiteDTO) {
+        return "ok";
     }
 }
