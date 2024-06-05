@@ -30,7 +30,7 @@ public class HelloWorldController {
     public String same() {
         asyncTaskInController();
         // 控制台没有立马打印相关信息，浏览器没有立马显示返回值
-        // 没有因为asyncTask()被阻塞
+        // 因为asyncTask()被阻塞
         System.out.println("controller中的helloWorld方法");
         return "hello world";
     }
