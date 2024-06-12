@@ -1,5 +1,6 @@
 package com.supremepole.b06springbootauditing;
 
+import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
@@ -20,6 +21,8 @@ public class Website {
     private String name;
     @LastModifiedDate
     private Date lastModifiedTime;
+    @CreatedBy
+    private Long createdBy;
 
     public int getId() {
         return id;
@@ -51,6 +54,14 @@ public class Website {
 
     public void setLastModifiedTime(Date lastModifiedTime) {
         this.lastModifiedTime = lastModifiedTime;
+    }
+
+    public Long getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(Long createdBy) {
+        this.createdBy = createdBy;
     }
 
     @Override
