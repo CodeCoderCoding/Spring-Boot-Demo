@@ -1,4 +1,4 @@
-package com.supremepole.b05springbootenvers;
+package com.supremepole.b05springbootenvers.entity;
 
 import org.hibernate.envers.Audited;
 import org.springframework.data.annotation.LastModifiedDate;

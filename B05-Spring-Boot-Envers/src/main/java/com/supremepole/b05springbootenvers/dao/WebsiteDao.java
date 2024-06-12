@@ -1,15 +1,19 @@
-package com.supremepole.b05springbootenvers;
+package com.supremepole.b05springbootenvers.dao;
 
+import com.supremepole.b05springbootenvers.entity.Website;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.history.RevisionRepository;
 import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 /**
  * @author CodeCoderCoding
  */
-public interface WebsiteDao extends JpaRepository<com.supremepole.b05springbootenvers.Website, Integer> {
+@Repository
+public interface WebsiteDao extends JpaRepository<Website, Integer>, RevisionRepository<Website, Integer, Integer> {
 
     /**
      * 查找具有最大id的网站
